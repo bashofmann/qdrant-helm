@@ -23,6 +23,27 @@ entries:
     - https://github.com/bashofmann/qdrant-helm/releases/download/qdrant-0.3.2/qdrant-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
+    appVersion: v1.4.1
+    created: "2023-08-16T07:52:30.467407465Z"
+    description: Qdrant - Vector Database for the next generation of AI applications.
+    digest: c2158e26be5d1e60b30a7f8eb3e2b94ba6830c6ce155444d695a9d08636ab39c
+    home: https://qdrant.tech
+    icon: https://qdrant.github.io/qdrant-helm/logo_with_text.svg
+    keywords:
+    - vector database
+    maintainers:
+    - email: info@qdrant.com
+      name: qdrant
+      url: https://github.com/qdrant
+    name: qdrant
+    sources:
+    - https://github.com/qdrant/qdrant
+    - https://github.com/qdrant/qdrant-helm
+    type: application
+    urls:
+    - https://github.com/bashofmann/qdrant-helm/releases/download/qdrant-0.3.0/qdrant-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: latest
     created: "2023-06-22T10:27:40.229444043Z"
     description: A Helm chart for Kubernetes
@@ -142,4 +163,4 @@ entries:
     urls:
     - https://qdrant.github.io/qdrant-helm/qdrant-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-15T17:03:25.54746+02:00"
+generated: "2023-08-16T07:52:30.467490166Z"
